@@ -1,0 +1,49 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< org.orangehrm:ProyectoFinal_OrangeHRM >----------------
+[INFO] Building ProyectoFinal_OrangeHRM 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ProyectoFinal_OrangeHRM ---
+[INFO] skip non existing resourceDirectory C:\Users\Pedro PC\Documents\Diplomado\Automatizacion\ProyectoFinal_OrangeHRM\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ ProyectoFinal_OrangeHRM ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 8 source files with javac [debug release 11] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ProyectoFinal_OrangeHRM ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ ProyectoFinal_OrangeHRM ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug release 11] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ ProyectoFinal_OrangeHRM ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running employees.CreateEmployeeTest
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Navegador: firefox 156.0.1
+Empleado de esta ejecucion: Q9ux2icb2q | Natalia_9ux2icb2q Elena Quispe | nataliaqa_9ux2icb2q | Enabled
+Captura final: target\screenshots\firefox-1790545277626.png
+Navegador: firefox 156.0.1
+Empleado de esta ejecucion: M3l1kafsv0 | Diego_3l1kafsv0 Andres Mamani | diegoqa_3l1kafsv0 | Disabled
+Captura final: target\screenshots\firefox-1790545300845.png
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.25 s -- in employees.CreateEmployeeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  50.234 s
+[INFO] Finished at: 2026-09-27T17:41:58-04:00
+[INFO] ------------------------------------------------------------------------

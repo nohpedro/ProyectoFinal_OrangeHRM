@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Navegador: firefox 156.0.1]]>
+    </line>
+    <line>
+      <![CDATA[Empleado de esta ejecucion: Q9ux2icb2q | Natalia_9ux2icb2q Elena Quispe | nataliaqa_9ux2icb2q | Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Captura final: target\screenshots\firefox-1790545277626.png]]>
+    </line>
+    <line>
+      <![CDATA[Navegador: firefox 156.0.1]]>
+    </line>
+    <line>
+      <![CDATA[Empleado de esta ejecucion: M3l1kafsv0 | Diego_3l1kafsv0 Andres Mamani | diegoqa_3l1kafsv0 | Disabled]]>
+    </line>
+    <line>
+      <![CDATA[Captura final: target\screenshots\firefox-1790545300845.png]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-09-27T17:41:11 BOT" name="Surefire suite" finished-at="2026-09-27T17:41:57 BOT" duration-ms="46783">
+    <groups>
+    </groups>
+    <test started-at="2026-09-27T17:41:11 BOT" name="Surefire test" finished-at="2026-09-27T17:41:57 BOT" duration-ms="46783">
+      <class name="employees.CreateEmployeeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:employees.CreateEmployeeTest@14555e0a]" started-at="2026-09-27T17:41:11 BOT" name="setUp" finished-at="2026-09-27T17:41:17 BOT" duration-ms="6507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navegador: firefox 156.0.1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@14555e0a]" started-at="2026-09-27T17:41:17 BOT" name="createEmployeeAndFindInList" description="Crear empleado con usuario y encontrarlo en PIM" data-provider="employees" finished-at="2026-09-27T17:41:34 BOT" duration-ms="16570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Q9ux2icb2q | Natalia_9ux2icb2q Elena Quispe | nataliaqa_9ux2icb2q | Enabled]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empleado de esta ejecucion: Q9ux2icb2q | Natalia_9ux2icb2q Elena Quispe | nataliaqa_9ux2icb2q | Enabled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createEmployeeAndFindInList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:employees.CreateEmployeeTest@14555e0a]" started-at="2026-09-27T17:41:34 BOT" name="tearDown" finished-at="2026-09-27T17:41:34 BOT" duration-ms="557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createEmployeeAndFindInList status=SUCCESS method=CreateEmployeeTest.createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@14555e0a] output=Empleado de esta ejecucion: Q9ux2icb2q | Natalia_9ux2icb2q Elena Quispe | nataliaqa_9ux2icb2q | Enabled]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captura final: target\screenshots\firefox-1790545277626.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:employees.CreateEmployeeTest@14555e0a]" started-at="2026-09-27T17:41:34 BOT" name="setUp" finished-at="2026-09-27T17:41:40 BOT" duration-ms="6089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navegador: firefox 156.0.1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@14555e0a]" started-at="2026-09-27T17:41:40 BOT" name="createEmployeeAndFindInList" description="Crear empleado con usuario y encontrarlo en PIM" data-provider="employees" finished-at="2026-09-27T17:41:57 BOT" duration-ms="16483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M3l1kafsv0 | Diego_3l1kafsv0 Andres Mamani | diegoqa_3l1kafsv0 | Disabled]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empleado de esta ejecucion: M3l1kafsv0 | Diego_3l1kafsv0 Andres Mamani | diegoqa_3l1kafsv0 | Disabled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createEmployeeAndFindInList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:employees.CreateEmployeeTest@14555e0a]" started-at="2026-09-27T17:41:57 BOT" name="tearDown" finished-at="2026-09-27T17:41:57 BOT" duration-ms="482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createEmployeeAndFindInList status=SUCCESS method=CreateEmployeeTest.createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@14555e0a] output=Empleado de esta ejecucion: M3l1kafsv0 | Diego_3l1kafsv0 Andres Mamani | diegoqa_3l1kafsv0 | Disabled]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captura final: target\screenshots\firefox-1790545300845.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- employees.CreateEmployeeTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

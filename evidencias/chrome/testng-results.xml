@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Empleado de esta ejecucion: Qp3yu9g5ji | Natalia_p3yu9g5ji Elena Quispe | nataliaqa_p3yu9g5ji | Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Captura final: target\screenshots\null-1790544995906.png]]>
+    </line>
+    <line>
+      <![CDATA[Empleado de esta ejecucion: M5omzvh6li | Diego_5omzvh6li Andres Mamani | diegoqa_5omzvh6li | Disabled]]>
+    </line>
+    <line>
+      <![CDATA[Captura final: target\screenshots\null-1790545015799.png]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-09-27T17:36:30 BOT" name="Surefire suite" finished-at="2026-09-27T17:37:11 BOT" duration-ms="40675">
+    <groups>
+    </groups>
+    <test started-at="2026-09-27T17:36:30 BOT" name="Surefire test" finished-at="2026-09-27T17:37:11 BOT" duration-ms="40675">
+      <class name="employees.CreateEmployeeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:employees.CreateEmployeeTest@14555e0a]" started-at="2026-09-27T17:36:30 BOT" name="setUp" finished-at="2026-09-27T17:36:35 BOT" duration-ms="4945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@14555e0a]" started-at="2026-09-27T17:36:35 BOT" name="createEmployeeAndFindInList" description="Crear empleado con usuario y encontrarlo en PIM" data-provider="employees" finished-at="2026-09-27T17:36:49 BOT" duration-ms="14016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Qp3yu9g5ji | Natalia_p3yu9g5ji Elena Quispe | nataliaqa_p3yu9g5ji | Enabled]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empleado de esta ejecucion: Qp3yu9g5ji | Natalia_p3yu9g5ji Elena Quispe | nataliaqa_p3yu9g5ji | Enabled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createEmployeeAndFindInList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:employees.CreateEmployeeTest@14555e0a]" started-at="2026-09-27T17:36:49 BOT" name="tearDown" finished-at="2026-09-27T17:36:51 BOT" duration-ms="1839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createEmployeeAndFindInList status=SUCCESS method=CreateEmployeeTest.createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@14555e0a] output=Empleado de esta ejecucion: Qp3yu9g5ji | Natalia_p3yu9g5ji Elena Quispe | nataliaqa_p3yu9g5ji | Enabled]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captura final: target\screenshots\null-1790544995906.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:employees.CreateEmployeeTest@14555e0a]" started-at="2026-09-27T17:36:51 BOT" name="setUp" finished-at="2026-09-27T17:36:55 BOT" duration-ms="4035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@14555e0a]" started-at="2026-09-27T17:36:55 BOT" name="createEmployeeAndFindInList" description="Crear empleado con usuario y encontrarlo en PIM" data-provider="employees" finished-at="2026-09-27T17:37:09 BOT" duration-ms="13926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M5omzvh6li | Diego_5omzvh6li Andres Mamani | diegoqa_5omzvh6li | Disabled]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empleado de esta ejecucion: M5omzvh6li | Diego_5omzvh6li Andres Mamani | diegoqa_5omzvh6li | Disabled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createEmployeeAndFindInList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:employees.CreateEmployeeTest@14555e0a]" started-at="2026-09-27T17:37:09 BOT" name="tearDown" finished-at="2026-09-27T17:37:11 BOT" duration-ms="1807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createEmployeeAndFindInList status=SUCCESS method=CreateEmployeeTest.createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@14555e0a] output=Empleado de esta ejecucion: M5omzvh6li | Diego_5omzvh6li Andres Mamani | diegoqa_5omzvh6li | Disabled]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captura final: target\screenshots\null-1790545015799.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- employees.CreateEmployeeTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

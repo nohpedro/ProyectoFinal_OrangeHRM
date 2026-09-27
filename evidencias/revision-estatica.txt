@@ -1,0 +1,5 @@
+Test de negocio sin localizadores ni acceso al DOM: OK
+Page Objects sin TestNG ni assertions: OK
+Sin Thread.sleep: OK
+Datos de empleados leidos de src/test/resources/testdata/employees.json: 2 filas
+Archivos originales comprobados mediante SHA256: 230; modificados: 0

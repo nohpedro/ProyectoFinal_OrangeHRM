@@ -1,0 +1,20 @@
+[
+  {
+    "firstName": "Natalia",
+    "middleName": "Elena",
+    "lastName": "Quispe",
+    "employeeId": "Q",
+    "username": "nataliaqa",
+    "password": "CursoQA2026!",
+    "status": "Enabled"
+  },
+  {
+    "firstName": "Diego",
+    "middleName": "Andres",
+    "lastName": "Mamani",
+    "employeeId": "M",
+    "username": "diegoqa",
+    "password": "CursoQA2026!",
+    "status": "Disabled"
+  }
+]

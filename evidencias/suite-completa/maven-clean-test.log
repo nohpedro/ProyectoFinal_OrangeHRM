@@ -1,0 +1,268 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< org.orangehrm:ProyectoFinal_OrangeHRM >----------------
+[INFO] Building ProyectoFinal_OrangeHRM 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.pom
+Progress (1): 780 B
+Progress (1): 1.7 kB
+Progress (1): 4.2 kB
+Progress (1): 5.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.pom (5.3 kB at 9.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/35/maven-plugins-35.pom
+Progress (1): 752 B
+Progress (1): 1.7 kB
+Progress (1): 3.7 kB
+Progress (1): 6.4 kB
+Progress (1): 8.2 kB
+Progress (1): 9.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/35/maven-plugins-35.pom (9.9 kB at 129 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/35/maven-parent-35.pom
+Progress (1): 726 B
+Progress (1): 1.6 kB
+Progress (1): 4.2 kB
+Progress (1): 8.4 kB
+Progress (1): 11 kB 
+Progress (1): 16 kB
+Progress (1): 21 kB
+Progress (1): 23 kB
+Progress (1): 26 kB
+Progress (1): 28 kB
+Progress (1): 30 kB
+Progress (1): 33 kB
+Progress (1): 37 kB
+Progress (1): 39 kB
+Progress (1): 42 kB
+Progress (1): 45 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/35/maven-parent-35.pom (45 kB at 573 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/25/apache-25.pom
+Progress (1): 743 B
+Progress (1): 1.6 kB
+Progress (1): 3.4 kB
+Progress (1): 5.5 kB
+Progress (1): 9.0 kB
+Progress (1): 14 kB 
+Progress (1): 17 kB
+Progress (1): 19 kB
+Progress (1): 21 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/25/apache-25.pom (21 kB at 263 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.jar
+Progress (1): 0.9/36 kB
+Progress (1): 2.3/36 kB
+Progress (1): 3.6/36 kB
+Progress (1): 5.0/36 kB
+Progress (1): 6.4/36 kB
+Progress (1): 7.7/36 kB
+Progress (1): 9.1/36 kB
+Progress (1): 10/36 kB 
+Progress (1): 12/36 kB
+Progress (1): 13/36 kB
+Progress (1): 15/36 kB
+Progress (1): 16/36 kB
+Progress (1): 17/36 kB
+Progress (1): 19/36 kB
+Progress (1): 20/36 kB
+Progress (1): 21/36 kB
+Progress (1): 23/36 kB
+Progress (1): 24/36 kB
+Progress (1): 26/36 kB
+Progress (1): 27/36 kB
+Progress (1): 28/36 kB
+Progress (1): 30/36 kB
+Progress (1): 34/36 kB
+Progress (1): 36 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.jar (36 kB at 140 kB/s)
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ ProyectoFinal_OrangeHRM ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.pom
+Progress (1): 790 B
+Progress (1): 2.3 kB
+Progress (1): 4.3 kB
+Progress (1): 5.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.pom (5.8 kB at 88 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom
+Progress (1): 781 B
+Progress (1): 2.3 kB
+Progress (1): 4.6 kB
+Progress (1): 5.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom (5.1 kB at 81 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom
+Progress (1): 727 B
+Progress (1): 1.9 kB
+Progress (1): 5.4 kB
+Progress (1): 9.8 kB
+Progress (1): 14 kB 
+Progress (1): 19 kB
+Progress (1): 23 kB
+Progress (1): 25 kB
+Progress (1): 26 kB
+Progress (1): 28 kB
+Progress (1): 31 kB
+Progress (1): 35 kB
+Progress (1): 38 kB
+Progress (1): 42 kB
+Progress (1): 43 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom (43 kB at 595 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.pom
+Progress (1): 782 B
+Progress (1): 2.1 kB
+Progress (1): 5.3 kB
+Progress (1): 7.5 kB
+Progress (1): 9.5 kB
+Progress (1): 12 kB 
+Progress (1): 14 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.pom (14 kB at 193 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom
+Progress (1): 707 B
+Progress (1): 1.9 kB
+Progress (1): 3.1 kB
+Progress (1): 4.5 kB
+Progress (1): 5.9 kB
+Progress (1): 7.5 kB
+Progress (1): 11 kB 
+Progress (1): 12 kB
+Progress (1): 15 kB
+Progress (1): 19 kB
+Progress (1): 22 kB
+Progress (1): 25 kB
+Progress (1): 27 kB
+Progress (1): 30 kB
+Progress (1): 32 kB
+Progress (1): 36 kB
+Progress (1): 36 kB
+Progress (1): 39 kB
+Progress (1): 42 kB
+Progress (1): 46 kB
+Progress (1): 52 kB
+Progress (1): 54 kB
+Progress (1): 57 kB
+Progress (1): 60 kB
+Progress (1): 61 kB
+Progress (1): 62 kB
+Progress (1): 64 kB
+Progress (1): 66 kB
+Progress (1): 68 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom (68 kB at 839 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom
+Progress (1): 748 B
+Progress (1): 2.1 kB
+Progress (1): 3.9 kB
+Progress (1): 8.0 kB
+Progress (1): 12 kB 
+Progress (1): 15 kB
+Progress (1): 16 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom (16 kB at 218 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar
+Progress (1): 3.2/153 kB
+Progress (1): 7.4/153 kB
+Progress (1): 12/153 kB 
+Progress (1): 16/153 kB
+Progress (1): 20/153 kB
+Progress (1): 24/153 kB
+Progress (1): 29/153 kB
+Progress (1): 33/153 kB
+Progress (1): 37/153 kB
+Progress (1): 41/153 kB
+Progress (1): 45/153 kB
+Progress (1): 50/153 kB
+Progress (1): 54/153 kB
+Progress (1): 58/153 kB
+Progress (1): 61/153 kB
+Progress (1): 65/153 kB
+Progress (1): 69/153 kB
+Progress (1): 73/153 kB
+Progress (1): 77/153 kB
+Progress (1): 82/153 kB
+Progress (1): 86/153 kB
+Progress (1): 90/153 kB
+Progress (1): 106/153 kB
+Progress (1): 123/153 kB
+Progress (1): 139/153 kB
+Progress (1): 153 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar (153 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar
+Progress (1): 7.7/215 kB
+Progress (1): 16/215 kB 
+Progress (1): 24/215 kB
+Progress (1): 40/215 kB
+Progress (1): 57/215 kB
+Progress (1): 73/215 kB
+Progress (1): 90/215 kB
+Progress (1): 93/215 kB
+Progress (1): 110/215 kB
+Progress (1): 126/215 kB
+Progress (1): 143/215 kB
+Progress (1): 159/215 kB
+Progress (1): 175/215 kB
+Progress (1): 192/215 kB
+Progress (1): 208/215 kB
+Progress (1): 215 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar (215 kB at 2.0 MB/s)
+[INFO] Deleting C:\Users\Pedro PC\Documents\Diplomado\Automatizacion\ProyectoFinal_OrangeHRM\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ProyectoFinal_OrangeHRM ---
+[INFO] skip non existing resourceDirectory C:\Users\Pedro PC\Documents\Diplomado\Automatizacion\ProyectoFinal_OrangeHRM\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ ProyectoFinal_OrangeHRM ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 8 source files with javac [debug release 11] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ProyectoFinal_OrangeHRM ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ ProyectoFinal_OrangeHRM ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug release 11] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ ProyectoFinal_OrangeHRM ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+sep. 27, 2026 5:42:19 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 154, returning the closest version; found: 152; Please update to a Selenium version that supports CDP version 154
+Navegador: chrome 154.0.8037.57
+Empleado de esta ejecucion: Q1ue6m8u26 | Natalia_1ue6m8u26 Elena Quispe | nataliaqa_1ue6m8u26 | Enabled
+Captura final: target\screenshots\chrome-1790545343106.png
+sep. 27, 2026 5:42:41 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 154, returning the closest version; found: 152; Please update to a Selenium version that supports CDP version 154
+Navegador: chrome 154.0.8037.57
+Empleado de esta ejecucion: M1z83ba039 | Diego_1z83ba039 Andres Mamani | diegoqa_1z83ba039 | Disabled
+Captura final: target\screenshots\chrome-1790545365327.png
+Navegador: firefox 156.0.1
+Empleado de esta ejecucion: Qvxluemtwt | Natalia_vxluemtwt Elena Quispe | nataliaqa_vxluemtwt | Enabled
+Captura final: target\screenshots\firefox-1790545389252.png
+Navegador: firefox 156.0.1
+Empleado de esta ejecucion: Mxrf2du8e3 | Diego_xrf2du8e3 Andres Mamani | diegoqa_xrf2du8e3 | Disabled
+Captura final: target\screenshots\firefox-1790545412058.png
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 91.00 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:35 min
+[INFO] Finished at: 2026-09-27T17:43:49-04:00
+[INFO] ------------------------------------------------------------------------

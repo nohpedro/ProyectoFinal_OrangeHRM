@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Navegador: chrome 154.0.8037.57]]>
+    </line>
+    <line>
+      <![CDATA[Empleado de esta ejecucion: Q1ue6m8u26 | Natalia_1ue6m8u26 Elena Quispe | nataliaqa_1ue6m8u26 | Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Captura final: target\screenshots\chrome-1790545343106.png]]>
+    </line>
+    <line>
+      <![CDATA[Navegador: chrome 154.0.8037.57]]>
+    </line>
+    <line>
+      <![CDATA[Empleado de esta ejecucion: M1z83ba039 | Diego_1z83ba039 Andres Mamani | diegoqa_1z83ba039 | Disabled]]>
+    </line>
+    <line>
+      <![CDATA[Captura final: target\screenshots\chrome-1790545365327.png]]>
+    </line>
+    <line>
+      <![CDATA[Navegador: firefox 156.0.1]]>
+    </line>
+    <line>
+      <![CDATA[Empleado de esta ejecucion: Qvxluemtwt | Natalia_vxluemtwt Elena Quispe | nataliaqa_vxluemtwt | Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Captura final: target\screenshots\firefox-1790545389252.png]]>
+    </line>
+    <line>
+      <![CDATA[Navegador: firefox 156.0.1]]>
+    </line>
+    <line>
+      <![CDATA[Empleado de esta ejecucion: Mxrf2du8e3 | Diego_xrf2du8e3 Andres Mamani | diegoqa_xrf2du8e3 | Disabled]]>
+    </line>
+    <line>
+      <![CDATA[Captura final: target\screenshots\firefox-1790545412058.png]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-09-27T17:42:18 BOT" name="OrangeHRM - Alta de empleados" finished-at="2026-09-27T17:43:48 BOT" duration-ms="90503">
+    <groups>
+    </groups>
+    <test started-at="2026-09-27T17:42:18 BOT" name="Chrome" finished-at="2026-09-27T17:43:03 BOT" duration-ms="44939">
+      <class name="employees.CreateEmployeeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:employees.CreateEmployeeTest@368247b9]" started-at="2026-09-27T17:42:18 BOT" name="setUp" finished-at="2026-09-27T17:42:23 BOT" duration-ms="4642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navegador: chrome 154.0.8037.57]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@368247b9]" started-at="2026-09-27T17:42:23 BOT" name="createEmployeeAndFindInList" description="Crear empleado con usuario y encontrarlo en PIM" data-provider="employees" finished-at="2026-09-27T17:42:39 BOT" duration-ms="16336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Q1ue6m8u26 | Natalia_1ue6m8u26 Elena Quispe | nataliaqa_1ue6m8u26 | Enabled]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empleado de esta ejecucion: Q1ue6m8u26 | Natalia_1ue6m8u26 Elena Quispe | nataliaqa_1ue6m8u26 | Enabled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createEmployeeAndFindInList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:employees.CreateEmployeeTest@368247b9]" started-at="2026-09-27T17:42:39 BOT" name="tearDown" finished-at="2026-09-27T17:42:41 BOT" duration-ms="1878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createEmployeeAndFindInList status=SUCCESS method=CreateEmployeeTest.createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@368247b9] output=Empleado de esta ejecucion: Q1ue6m8u26 | Natalia_1ue6m8u26 Elena Quispe | nataliaqa_1ue6m8u26 | Enabled]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captura final: target\screenshots\chrome-1790545343106.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:employees.CreateEmployeeTest@368247b9]" started-at="2026-09-27T17:42:41 BOT" name="setUp" finished-at="2026-09-27T17:42:45 BOT" duration-ms="4005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navegador: chrome 154.0.8037.57]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@368247b9]" started-at="2026-09-27T17:42:45 BOT" name="createEmployeeAndFindInList" description="Crear empleado con usuario y encontrarlo en PIM" data-provider="employees" finished-at="2026-09-27T17:43:01 BOT" duration-ms="16152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M1z83ba039 | Diego_1z83ba039 Andres Mamani | diegoqa_1z83ba039 | Disabled]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empleado de esta ejecucion: M1z83ba039 | Diego_1z83ba039 Andres Mamani | diegoqa_1z83ba039 | Disabled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createEmployeeAndFindInList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:employees.CreateEmployeeTest@368247b9]" started-at="2026-09-27T17:43:01 BOT" name="tearDown" finished-at="2026-09-27T17:43:03 BOT" duration-ms="1830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createEmployeeAndFindInList status=SUCCESS method=CreateEmployeeTest.createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@368247b9] output=Empleado de esta ejecucion: M1z83ba039 | Diego_1z83ba039 Andres Mamani | diegoqa_1z83ba039 | Disabled]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captura final: target\screenshots\chrome-1790545365327.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- employees.CreateEmployeeTest -->
+    </test> <!-- Chrome -->
+    <test started-at="2026-09-27T17:43:03 BOT" name="Firefox" finished-at="2026-09-27T17:43:48 BOT" duration-ms="45541">
+      <class name="employees.CreateEmployeeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:employees.CreateEmployeeTest@6440112d]" started-at="2026-09-27T17:43:03 BOT" name="setUp" finished-at="2026-09-27T17:43:09 BOT" duration-ms="5915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navegador: firefox 156.0.1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@6440112d]" started-at="2026-09-27T17:43:09 BOT" name="createEmployeeAndFindInList" description="Crear empleado con usuario y encontrarlo en PIM" data-provider="employees" finished-at="2026-09-27T17:43:25 BOT" duration-ms="16328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Qvxluemtwt | Natalia_vxluemtwt Elena Quispe | nataliaqa_vxluemtwt | Enabled]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empleado de esta ejecucion: Qvxluemtwt | Natalia_vxluemtwt Elena Quispe | nataliaqa_vxluemtwt | Enabled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createEmployeeAndFindInList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:employees.CreateEmployeeTest@6440112d]" started-at="2026-09-27T17:43:25 BOT" name="tearDown" finished-at="2026-09-27T17:43:26 BOT" duration-ms="491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createEmployeeAndFindInList status=SUCCESS method=CreateEmployeeTest.createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@6440112d] output=Empleado de esta ejecucion: Qvxluemtwt | Natalia_vxluemtwt Elena Quispe | nataliaqa_vxluemtwt | Enabled]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captura final: target\screenshots\firefox-1790545389252.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:employees.CreateEmployeeTest@6440112d]" started-at="2026-09-27T17:43:26 BOT" name="setUp" finished-at="2026-09-27T17:43:32 BOT" duration-ms="5986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navegador: firefox 156.0.1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@6440112d]" started-at="2026-09-27T17:43:32 BOT" name="createEmployeeAndFindInList" description="Crear empleado con usuario y encontrarlo en PIM" data-provider="employees" finished-at="2026-09-27T17:43:48 BOT" duration-ms="16324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mxrf2du8e3 | Diego_xrf2du8e3 Andres Mamani | diegoqa_xrf2du8e3 | Disabled]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empleado de esta ejecucion: Mxrf2du8e3 | Diego_xrf2du8e3 Andres Mamani | diegoqa_xrf2du8e3 | Disabled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createEmployeeAndFindInList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:employees.CreateEmployeeTest@6440112d]" started-at="2026-09-27T17:43:48 BOT" name="tearDown" finished-at="2026-09-27T17:43:48 BOT" duration-ms="494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createEmployeeAndFindInList status=SUCCESS method=CreateEmployeeTest.createEmployeeAndFindInList(org.orangehrm.models.EmployeeData)[pri:0, instance:employees.CreateEmployeeTest@6440112d] output=Empleado de esta ejecucion: Mxrf2du8e3 | Diego_xrf2du8e3 Andres Mamani | diegoqa_xrf2du8e3 | Disabled]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captura final: target\screenshots\firefox-1790545412058.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- employees.CreateEmployeeTest -->
+    </test> <!-- Firefox -->
+  </suite> <!-- OrangeHRM - Alta de empleados -->
+</testng-results>
