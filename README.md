@@ -16,21 +16,6 @@ En este equipo se prepararon herramientas portátiles en `../.tools`, porque Jav
 Maven no estaban disponibles en PATH. Para usarlas sin modificar Windows:
 
 ```powershell
-cd 'C:\Users\Pedro PC\Documents\Diplomado\Automatizacion\ProyectoFinal_OrangeHRM'
-. .\activar-entorno.ps1
-mvn clean test
-```
-
-El script únicamente prepara variables de la terminal actual. Al copiar el proyecto
-a otro equipo basta instalar Java/Maven; el proyecto no depende de ese script.
-Chrome y Firefox son navegadores reales controlados por Selenium Manager, que resuelve
-sus drivers. La primera ejecución requiere Internet para dependencias y drivers.
-En este equipo Selenium Manager descargó Chrome for Testing; Firefox ya estaba instalado.
-
-Para ejecutar únicamente un navegador, `-Dtest` selecciona la clase fuera de la suite
-y `-Dbrowser` proporciona el parámetro de TestNG:
-
-```powershell
 mvn test -Dtest=employees.CreateEmployeeTest -Dbrowser=chrome
 mvn test -Dtest=employees.CreateEmployeeTest -Dbrowser=firefox
 ```
@@ -103,35 +88,6 @@ Nunca se genera otra identidad al buscar. No se modifica el JSON original.
 El primer empleado usa `Enabled` y el segundo `Disabled`. La contraseña se toma del
 JSON y se escribe también en su confirmación. Son datos ficticios para la demo pública.
 
-## Cross-browser y Maven
-
-`testng.xml` tiene un bloque `test` para Chrome y otro para Firefox, ambos apuntando a
-la misma clase. Cada bloque envía `<parameter name="browser" ... />` a BaseTest.
-Cada navegador vuelve a ejecutar el DataProvider: **2 empleados × 2 navegadores = 4 casos**.
-Cada caso dispone de un navegador nuevo; el cierre se intenta incluso si falla.
-
-Surefire 3.5.4 carga `testng.xml` desde `pom.xml`. El compilador 3.14.1 usa release 11.
-Se conservaron las versiones de clase 9: Selenium 4.48.0, TestNG 7.12.0 y Gson 2.14.0.
-No se repite `selenium-support` porque ya llega mediante `selenium-java`.
-TestNG tiene scope test para evitar dependencias de pruebas en las páginas.
-
-## Localizadores y sincronización
-
-La inspección se realizó con Selenium sobre el DOM renderizado de OrangeHRM OS 5.9.
-Login usa name=username/password; nombres usan firstName/middleName/lastName.
-Los inputs sin id/name se ubican por su etiqueta y contenedor asociado mediante XPath
-relativo. No se usan atributos data-v generados ni rutas XPath absolutas.
-El switch se acciona mediante su label visible y se espera su checkbox seleccionado;
-el estado se selecciona por el texto del radio y se espera su selección.
-BasePage espera las capas `.oxd-form-loader` y `.oxd-loading-spinner`; si una capa
-aparece entre la comprobación y el clic, WebDriverWait vuelve a intentarlo solo ante
-intercepción o reemplazo del elemento. Esta corrección se verificó en Firefox.
-
-Después de guardar se espera la redirección que confirma el fin del alta. Aunque
-OrangeHRM redirige a Personal Details, no se rellena ni guarda ningún dato allí.
-Se vuelve a Employee List y se busca por ID. La consulta espera que desaparezca el
-indicador de carga y que exista exactamente una fila con ID y nombre completo correctos.
-Las celdas corresponden a las columnas observadas: selección, ID, nombres y apellido.
 
 ## Evidencia y alcance
 
